@@ -1,0 +1,14 @@
+.total-recording-duration--label {
+  text-transform: uppercase;
+  font-size: x-small;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.total-recording-duration--value {
+  color: rgb(0, 155, 255);
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1;
+  text-transform: none;
+}

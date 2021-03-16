@@ -1,0 +1,49 @@
+.cookie-banner {
+  width: 100%;
+  text-align: left;
+  background-color: rgb(18, 62, 108, 0.85);
+  padding: 1rem;
+  color: white;
+}
+
+.cookie-banner .row {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cookie-banner a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.cookie-banner .playlist-button .btn {
+  min-width: 12rem;
+  font-size: 0.9rem;
+  background-color: white;
+  border-color: white;
+  color: #123e6c;
+  border-width: medium;
+}
+
+.cookie-banner .playlist-button .btn:hover {
+  background-color: rgb(236, 236, 236);
+  border-color: rgb(236, 236, 236);
+}
+
+.cookie-banner .playlist-button .btn:not(:disabled):not(.disabled):active {
+  background-color: rgb(199, 199, 199);
+  border-color: rgb(199, 199, 199);
+}
+
+.cookie-banner .playlist-button.playlist-button--outline .btn {
+  border-color: white;
+
+  color: white;
+  background-color: transparent;
+}
+
+.cookie-banner .playlist-button.playlist-button--outline .btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

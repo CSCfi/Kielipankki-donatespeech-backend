@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: white;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    margin-bottom: 1rem;
+  }
+}
+
+.App .wip-note {
+  background-color: rgb(0, 155, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}

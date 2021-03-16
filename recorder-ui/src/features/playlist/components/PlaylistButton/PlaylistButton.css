@@ -1,0 +1,47 @@
+.playlist-button .btn {
+  border-radius: 2rem;
+  min-width: 160px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #123e6c;
+  border-color: #123e6c;
+  min-width: 15rem;
+  border-width: medium;
+}
+
+.playlist-button .btn:hover {
+  background-color: #557ca3;
+  border-color: #557ca3;
+}
+
+.playlist-button .btn:not(:disabled):not(.disabled):active {
+  background-color: #184478;
+  border-color: #184478;
+}
+
+.playlist-button.playlist-button--outline .btn {
+  border-color: #123e6c;
+  border-width: medium;
+  color: #123e6c;
+  background-color: transparent;
+}
+
+.playlist-button.playlist-button--outline .btn:hover {
+  background-color: #e6ecf1;
+}
+
+.playlist-button.playlist-button--outline
+  .btn:not(:disabled):not(.disabled):active {
+  background-color: #6d8fb1;
+}
+
+.playlist-button.playlist-button--text {
+  color: #123e6c;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.schedule-view {
+  min-height: 90vh;
+}
+
+.schedule-view .schdule-view-col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.schedule-view.schedule-view--playlist {
+  height: 95vh;
+}
+
+.schedule-view .frame {
+  height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1rem;
+  padding-bottom: 0.5em;
+}
+
+.schedule-view .schedule-view-header {
+  height: 2.5rem;
+}
+
+.schedule-view .schedule-view-header .schedule-view-header--quit {
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #184477;
+  background-color: transparent;
+  border: none;
+}
+
+.schedule-view .schedule-view-content {
+  min-height: calc(95vh - 2.5rem - 1rem);
+}
+
+.schedule-view.schedule-view--playlist .schedule-view-content {
+  height: calc(95vh - 2.5rem - 1rem);
+}
+
+@media (max-width: 650px) {
+  .schedule-view.schedule-view--playlist {
+    height: 90vh;
+  }
+
+  .schedule-view .schedule-view-content {
+    min-height: calc(90vh - 2.5rem - 1rem);
+  }
+
+  .schedule-view.schedule-view--playlist .schedule-view-content {
+    height: calc(90vh - 2.5rem - 1rem);
+  }
+}

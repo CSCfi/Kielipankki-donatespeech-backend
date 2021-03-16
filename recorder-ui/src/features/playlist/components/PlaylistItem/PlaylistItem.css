@@ -1,0 +1,50 @@
+.playlist-item .playlist-item-media {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 52%;
+  overflow: visible;
+  max-height: calc((100vw - 4rem) * 9 / 16);
+}
+
+.playlist-item .playlist-item-media img {
+  height: 100%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+
+.playlist-item img.playlist-item-image--loaded {
+  border-style: solid;
+  border-width: 6px;
+  border-color: rgb(0, 155, 255);
+}
+
+.playlist-item .playlist-item-label {
+  margin-bottom: 0px;
+}
+
+.playlist-item .playlist-item-text {
+  height: 48%;
+}
+
+.playlist-item .playlist-arrow-button {
+  height: 3rem;
+}
+
+@media (max-width: 870px) {
+  .playlist-item .playlist-arrow-button {
+    height: 2rem;
+  }
+
+  .playlist-item .playlist-item-label {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .playlist-item .playlist-item-text {
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
+}

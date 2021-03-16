@@ -1,0 +1,23 @@
+.item-title {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 155, 255);
+  font-weight: 700;
+  font-size: 2.2rem;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 650px) {
+  .item-title {
+    font-size: 1.7rem;
+    line-height: 1;
+  }
+}
+
+@media (max-height: 800px) {
+  .item-title {
+    font-size: 1.7rem;
+    line-height: 1;
+  }
+}

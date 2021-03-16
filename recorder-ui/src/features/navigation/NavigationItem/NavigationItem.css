@@ -1,0 +1,23 @@
+.navbar .navbar-nav .navigation-item .nav-link {
+  color: black;
+  border-left: solid 1px black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar .navbar-nav .navigation-item.navigation-item--first .nav-link {
+  border-left: none;
+}
+
+.navbar .navbar-nav .navigation-item.navigation-item--active {
+  font-weight: 700;
+}
+
+.navbar .navbar-nav .navigation-item .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar .navbar-nav .navigation-item a {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}

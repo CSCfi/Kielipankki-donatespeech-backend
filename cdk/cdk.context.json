@@ -1,0 +1,12 @@
+{
+  "@aws-cdk/core:enableStackNameDuplicates": "true",
+  "aws-cdk:enableDiffNoFail": "true",
+  "hosted-zone:account=<redacted>:domainName=example.com:region=eu-west-1": {
+    "Id": "/hostedzone/<redacted>",
+    "Name": "example.com."
+  },
+  "hosted-zone:account=<redacted>:domainName=dev.example.com:region=eu-west-1": {
+    "Id": "/hostedzone/<redacted>",
+    "Name": "dev.example.com."
+  }
+}

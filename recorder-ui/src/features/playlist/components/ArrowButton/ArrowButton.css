@@ -1,0 +1,16 @@
+.arrow-button {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+}
+
+.arrow-button img {
+  height: 100%;
+}
+
+.arrow-button:hover {
+  opacity: 0.9;
+}

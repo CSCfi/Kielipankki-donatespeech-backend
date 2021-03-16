@@ -1,0 +1,34 @@
+.navbar {
+  background-color: #fcf8f2;
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar .navbar-brand a {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border-left: solid 1px black;
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.navbar-light .navbar .navbar-nav a {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}

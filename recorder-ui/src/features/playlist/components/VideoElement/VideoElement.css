@@ -1,0 +1,46 @@
+.video-element {
+  cursor: pointer;
+  width: unset;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-element.video-element--autoplay {
+  cursor: default;
+}
+
+.video-element-icon {
+  position: absolute;
+  left: 50%;
+  cursor: pointer;
+  pointer-events: none;
+  z-index: 1000;
+  visibility: hidden;
+}
+
+/* For triggering icon positioning on Safari */
+.video-element-icon.video-element-icon--display {
+  visibility: visible;
+}
+
+.playlist-item .playlist-item-media .video-element-icon img {
+  width: 7rem;
+  margin-top: -2rem;
+  margin-left: -3rem;
+}
+
+@media (max-width: 450px) {
+  .playlist-item .playlist-item-media .video-element-icon img {
+    width: 5.5rem;
+    margin-top: -1.5rem;
+    margin-left: -2.5rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .playlist-item .playlist-item-media .video-element-icon img {
+    width: 4.5rem;
+    margin-top: -1rem;
+    margin-left: -1.5rem;
+  }
+}

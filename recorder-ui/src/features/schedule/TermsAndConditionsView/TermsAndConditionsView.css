@@ -1,0 +1,30 @@
+.terms-and-conditions-view {
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.terms-and-conditions-view .terms-and-conditions-footer {
+  text-align: center;
+  margin: 3.5rem auto 1.5rem;
+  font-weight: 500;
+  max-width: 42rem;
+}
+
+.terms-and-conditions-view .terms-and-conditions-footer p {
+  margin-bottom: 1.5rem;
+}
+
+.terms-and-conditions-view h4 {
+  margin-top: 2rem;
+}
+
+.terms-and-conditions-view a {
+  color: black;
+  text-decoration: underline;
+  font-weight: 700;
+}

@@ -1,0 +1,59 @@
+.frame {
+  background-color: #fcf8f2;
+  padding-bottom: 3rem;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.frame .frame--view {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: left;
+}
+
+.frame .frame--view h2,
+h3,
+h4,
+h6 {
+  color: rgb(0, 155, 255);
+}
+
+.frame .frame--view h2 {
+  color: rgb(0, 155, 255);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.frame .frame--view h5 {
+  font-weight: 700;
+}
+
+.frame .frame--view p {
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+
+.frame .frame--view li {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+
+.frame .frame--view a {
+  color: rgb(50, 50, 50);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .frame .frame--view {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+  }
+}

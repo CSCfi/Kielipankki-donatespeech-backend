@@ -1,0 +1,16 @@
+.app-icons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.app-icons .app-store-icon img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.app-icons .google-play-icon img {
+  height: 60px;
+  margin-top: -10px;
+}

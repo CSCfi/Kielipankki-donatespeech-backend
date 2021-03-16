@@ -1,0 +1,23 @@
+.recorder-status-view {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.recorder-status-view h3 {
+  margin-bottom: 1rem;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 155, 255);
+  font-weight: 700;
+}
+
+.recorder-status-view p {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1rem;
+  font-weight: 500;
+}

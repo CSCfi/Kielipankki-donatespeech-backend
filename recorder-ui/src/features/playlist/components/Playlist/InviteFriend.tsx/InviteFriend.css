@@ -1,0 +1,6 @@
+.invite-friend .react-share__ShareButton {
+  border: solid;
+  border-color: transparent;
+  border-radius: 1rem;
+  overflow: hidden;
+}

@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+      nodejs: 10
+      python: 3.7
+    commands:
+      - npm install -g serverless
+      - npm install -g aws-cdk@1.30.0
+  build:
+    commands:
+      - cd recorder-ui
+      - npm install
+      - REACT_APP_STAGE=$ENV npm run build
+      - mv build dist
+      - cd ../cdk
+      - npm install
+      - npm run build
+      - echo Env variables Env $ENV branch $BRANCH
+      - cdk bootstrap
+      - cdk deploy RecorderBackendCI RecorderBackendResources RecorderWAF RecorderStaticSite --require-approval=never
+      - cd ../recorder-backend
+      - npm install
+      - sls create_domain --stage $ENV
+      - sls deploy --stage $ENV
